@@ -1,14 +1,14 @@
 [back home](https://github.com/JaysonBucket/CoworkCustoms)  
-Content freshness: 28.05.2026 (v1.2.1 release)
+Content freshness: 28.05.2026 (v1.2.2 release)
 
-# news-commander v1.2.1
+# news-commander v1.2.2
 
 > **A Cowork Custom Skill for anyone working in the Microsoft ecosystem.**
 > One curated source catalog, topic-centric filtering, one digest per day — no doom-scrolling, no duplicate announcements, no empty-day spam.
 
 A personal news-triage system for cloud architects, consultants, modern-work specialists, security engineers, and anyone else who needs to stay on top of the Microsoft ecosystem without losing an hour a day to RSS readers.
 
-Current version: **1.2.1** — see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from [news-commander-v1.2.1.zip](news-commander-v1.2.1.zip). **1.2.1 is additive on top of 1.2.0** — adds four new categories (`identity-iam`, `agents-core`, `browser-web`, `windows-tooling`), re-buckets four sources to fit their actual content, and enriches 19 sources with product-level tags so topic scoring catches Copilot-in-Excel, Defender XDR, Agent Builder, MCP, AI Foundry, and so on. Mirror-safe: `item_id = sha1(source_id + url)` stays stable, no rotation, no re-pull needed. (If upgrading from v1.1.x, see the v1.2.0 notes first — that one removed six dead sources and switched Azure / MSRC to JSON APIs.)
+Current version: **1.2.2** — see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from .
 
 </br>
 
