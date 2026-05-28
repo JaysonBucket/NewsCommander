@@ -8,7 +8,9 @@ Content freshness: 28.05.2026 (v1.2.2 release)
 
 A personal news-triage system for cloud architects, consultants, modern-work specialists, security engineers, and anyone else who needs to stay on top of the Microsoft ecosystem without losing an hour a day to RSS readers.
 
-Current version: **1.2.2** — see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from .
+Current version: **1.2.2** — see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from [Sources zip file](news-commander-v1.2.2.zip).
+
+Not sure how to Import? [Step by step HowTo here](https://github.com/JaysonBucket/CoworkCustoms/blob/main/docs/AddCustomSkills.md). 
 
 </br>
 
