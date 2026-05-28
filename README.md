@@ -1,22 +1,27 @@
 [back home](https://github.com/JaysonBucket/CoworkCustoms)  
-Content freshness: 28.05.2026 (v1.2.2 release)
+Content freshness: 29.05.2026
 
-# news-commander v1.2.2
+# news-commander v1.3.0
 
 > **A Cowork Custom Skill for anyone working in the Microsoft ecosystem.**
 > One curated source catalog, topic-centric filtering, one digest per day — no doom-scrolling, no duplicate announcements, no empty-day spam.
 
 A personal news-triage system for cloud architects, consultants, modern-work specialists, security engineers, and anyone else who needs to stay on top of the Microsoft ecosystem without losing an hour a day to RSS readers.
 
-Current version: **1.2.2** — see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from [Sources zip file](news-commander-v1.2.2.zip).
+Current version: see [news-commander-RELEASE_NOTES.en.md](news-commander-RELEASE_NOTES.en.md) · full source catalog in [news-commander-sources.en.md](news-commander-sources.en.md) · grab the packaged skill from [Sources zip file](news-commander-v1.3.0.zip).
 
 Not sure how to Import? [Step by step HowTo here](https://github.com/JaysonBucket/CoworkCustoms/blob/main/docs/AddCustomSkills.md). 
 
 </br>
 
-<img width="914" height="418" alt="image" src="https://github.com/user-attachments/assets/c4c5e7ef-dc41-411f-bacf-ae4473c40e91" />
+<img width="914" height="453" alt="image" src="https://github.com/user-attachments/assets/26bcb285-3e22-48e7-9edc-f5faa05e3323" />
+
 
 </br>
+
+## Important fixes with 1.3.0 — Two-Tier Fallback Pull
+**What:** Pull is now three phases. Phase 1 urllib direct → Phase 2 agent MCP fetch (`web_search`/`web_fetch`) for anything unreachable → Phase 3 `pull_feeds.py --from-cache` parses from `data/mirror/raw-fetch/<id>.json` with the existing parsers. New `feed_type: "json_listing_search"` for SPA sources without a real feed (M365 Roadmap, Azure Updates, MSRC CVRF).
+**Why:** From the skill container, urllib can't reach several Microsoft hosts (Errno 101) — three of the most important roadmap/security sources were silently failing in the 03:00 run. v1.3 routes them transparently through the agent.
 
 ## What you get: a Cowork skill that triages your morning MS-news in three minutes
 
