@@ -1,7 +1,5 @@
 # News Commander — Release Notes (English)
 
-> German version: [`RELEASE_NOTES.md`](RELEASE_NOTES.md)
-
 ## Why this skill exists
 
 ### The challenge
