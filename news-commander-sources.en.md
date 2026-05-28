@@ -73,47 +73,6 @@
 | `tc-community-news` | Community News Desk | `public-sector-ft` | community, events, webinars, de, ama | [Link](https://techcommunity.microsoft.com/category/communitynewsdesk/blog/communitynewsdesk) | TC community news + AMAs |
 | `msft-de-events` | Microsoft Events, Webinars & Conferences (DE) | `events` | events, webinars, de, copilot, ai, training | [Link](https://www.microsoft.com/de-de/events) | Central DE events portal; HTML scrape returns title + date + language reliably |
 
-## Sources that are **inactive** by default (`active: false`)
-
-These sources exist in the catalog but are turned off by default — flip `active: true` in `sources.json` to enable:
-
-| ID | Title | Category | Reason |
-|----|-------|----------|--------|
-| `industry-energy` | Cloud Blog: Energy & Resources | `industry` | Off by default (industry vertical) |
-| `industry-finserv` | Cloud Blog: Financial Services | `industry` | Off by default |
-| `industry-gov` | Cloud Blog: Government | `industry` | Off by default |
-| `industry-health` | Cloud Blog: Healthcare | `industry` | Off by default |
-| `industry-mfg` | Cloud Blog: Manufacturing | `industry` | Off by default |
-| `industry-media` | Cloud Blog: Media & Entertainment | `industry` | Off by default |
-| `industry-mobility` | Cloud Blog: Mobility | `industry` | Off by default |
-| `industry-retail` | Cloud Blog: Retail & Consumer Goods | `industry` | Off by default |
-| `industry-telco` | Cloud Blog: Telecommunications | `industry` | Off by default |
-| `win-insider` | Windows Insider Blog | `windows` | Off by default, off-role |
-| `win-experience` | Windows Experience Blog | `windows` | Off by default, off-role |
-| `win-devices` | Microsoft Devices Blog | `windows` | Off by default, Surface / hardware |
-| `tc-student-dev` | Student Developer Blog | `dev-platform` | Off by default, off-role (edu) |
-| `tc-public-sector` | Public Sector Blog | `public-sector-ft` | Off by default |
-| `_placeholder_internal` | (Reserved slot) | `internal` | Reserved (replaces `amc-rss`, removed in v1.2.0) |
-
-## Removed sources (`removed[]`)
-
-Dropped from the active catalog, documented with reason in `sources.json.removed[]`:
-
-| ID | Reason |
-|----|--------|
-| `ms-learn` | Too large for a news pull, wrong signal source |
-| `ai-skills-navigator` | No RSS, no listing, interactive tool |
-| `edu-events` | Click-only UI, no parseable listing |
-| `edu-blog` | Off-role |
-| `tech-hub-internal` | MS-internal, not reachable from the container |
-| `copilot-studio-wave2` | Static docs, not a news feed |
-| `techwiese-itpro` | v1.2.0: feed defunct (only returns `<title>Microsoft</title>`) |
-| `tc-copilot-studio` | v1.2.0: TC `board.id` 404 — board renamed |
-| `tc-copilot-events` | v1.2.0: HTML events page no longer parseable |
-| `tc-planner` | v1.2.0: TC `board.id` 404 — board renamed |
-| `tc-skills-hub` | v1.2.0: TC `board.id` 404 — board renamed |
-| `amc-rss` | v1.2.0: auth wall, not reachable from the container |
-
 ## Feed types
 
 | `feed_type` | Used for | Sources |
