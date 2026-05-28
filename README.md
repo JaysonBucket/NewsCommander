@@ -1,4 +1,4 @@
-[back home](../README.md)  
+[back home](https://github.com/JaysonBucket/CoworkCustoms)  
 Content freshness: 28.05.2026 (v1.2.1 release)
 
 # news-commander v1.2.1
