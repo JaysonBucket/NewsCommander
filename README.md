@@ -14,7 +14,6 @@ Current version: **1.2.1** — see [news-commander-RELEASE_NOTES.en.md](news-com
 
 <img width="914" height="418" alt="image" src="https://github.com/user-attachments/assets/c4c5e7ef-dc41-411f-bacf-ae4473c40e91" />
 
-
 </br>
 
 ## What you get: a Cowork skill that triages your morning MS-news in three minutes
