@@ -1,4 +1,4 @@
-[back home](https://github.com/JaysonBucket)  
+[back home](../README.md)  
 Content freshness: 28.05.2026 (v1.2.1 release)
 
 # news-commander v1.2.1
